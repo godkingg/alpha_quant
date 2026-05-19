@@ -1,0 +1,31 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Khởi tạo virtual environments (dùng venv)
+.venv/
+venv/
+env/
+ENV/
+
+# Files cấu hình cá nhân hoặc nhạy cảm
+.env
+.env.*
+*.log
+
+# Cấu hình IDE (VSCode, Pycharm...)
+.vscode/
+.idea/
+
+# Thư mục lưu trữ model ML học máy kích thước lớn (tránh vượt giới hạn 100MB Github)
+saved_model/*.joblib
+saved_model/*.pkl
+saved_model/*.h5
+saved_model/
+
+# Dữ liệu xuất
+*.csv
+*.png
+*.html
+*.pdf

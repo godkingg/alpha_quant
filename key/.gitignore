@@ -1,0 +1,13 @@
+# Ignore all key files
+*.key
+*.ppk
+*.pub
+*.pem
+*.p12
+*.pfx
+*.key
+
+# Specifically ignore the keys in this directory
+key.ppk
+p_key.key
+pub.key.pub

@@ -1,0 +1,3 @@
+Kiểm tra VM: ps aux | grep python
+Kiểm tra screen: screen -ls
+Vào screen: screen -r alpha_quant
